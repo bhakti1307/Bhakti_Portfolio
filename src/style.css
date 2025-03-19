@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Stoke:wght@300;400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: rgb(253, 243, 230);
+    font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.header{
+display: flex;
+justify-content: space-between;
+}
+.header .header-logo{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: start;
+    width: 500px;
+    color: #8082f8;
+}
+.header .header-logo a{
+    color: #8082f8;
+    text-decoration: none;
+}
+.header .header-logo h3:hover{
+    color: #ff7f7f;
+}
+.header .header-logo h1{
+    font-size: 50px;
+    font-family: "Stoke", serif;
+    margin-top: 1px;
+    color: #8082f8;
+}
+.header .navbar{
+    display: flex;
+    align-items: start;
+}
+.header .navbar ul{
+
+}
+.header .navbar ul li{
+display: inline-flex;
+}
+.header .navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 9px;
+    color: #8082f8;
+    margin-top: 1px;
+}
+.header .navbar ul li a:hover{
+    color: #ff7f7f;
+}
+.main{
+    margin-top: -39px;
+    height: 150px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 5px;
+    color: #8082f8;
+}
