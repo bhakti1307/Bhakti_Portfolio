@@ -61,4 +61,7 @@
     margin: 0;
     line-height: 1.2;
   }
-  
+  .profile{
+    margin-top: 250px;
+    text-align: center;
+  }
