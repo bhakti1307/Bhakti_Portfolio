@@ -62,6 +62,9 @@
     line-height: 1.2;
   }
   .profile{
-    margin-top: 250px;
+    margin-top: 550px;
     text-align: center;
+  }
+  .profile h4{
+    font-size: 20px;
   }
