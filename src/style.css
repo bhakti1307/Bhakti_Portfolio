@@ -50,6 +50,7 @@ display: inline-flex;
     margin: 9px;
     color: #8082f8;
     margin-top: 1px;
+   
 }
 .header .navbar ul li a:hover{
     color: #ff7f7f;
@@ -77,6 +78,7 @@ display: inline-flex;
 .footer .footerl h1{
 font-size: 70PX;
 color: #8082f8;
+
 }
 .footer .footerl .footerinner h1{
   font-size: 30px;
@@ -104,4 +106,8 @@ color: #8082f8;
   color: black;
   font-weight: 600;
   line-height: 5px;
+}
+.footer .footerl h1{
+  font-size: 20px;
+  
 }
