@@ -27,6 +27,7 @@ justify-content: space-between;
 }
 .header .header-logo h3:hover{
     color: #ff7f7f;
+    transition: all 0.5s linear;
 }
 .header .header-logo h1{
     font-size: 50px;
@@ -50,7 +51,6 @@ display: inline-flex;
     margin: 9px;
     color: #8082f8;
     margin-top: 1px;
-   
 }
 ul{
   list-style-type: none;
@@ -72,7 +72,7 @@ ul{
   justify-content: center;
   width: 45px;
   height: 45px;
-  background-color: #333;
+  background-color: #8082f8;
   color: #fff;
   text-decoration: none;
   border-radius: 5px 0 0 5px;
@@ -103,10 +103,10 @@ ul{
     color: #ff7f7f;
 }
 .main{
-background-color: rgba(120, 187, 245, 0.2);
-  border-radius: 20px;
+/*background-color: rgba(120, 187, 245, 0.2);
+ */ border-radius: 20px;
     margin-top: -39px;
-    height: 450px;
+    height: 300px;
     text-align: center;
     font-size: 20px;
     color: #8082f8;
@@ -134,7 +134,7 @@ background-color: rgba(120, 187, 245, 0.2);
 
 }
 .footer .footerl h1{
-font-size: 35PX;
+font-size: 25PX;
 color: #8082f8;
 
 }
@@ -170,4 +170,27 @@ color: #8082f8;
 }
 .footer .footerl h1{
   font-size: 20px;
+}
+.footerr h1{
+  font-size: 25px;
+}
+#git:hover{
+  color: #ff7f7f;
+  transition: all 0.5s linear;
+}
+#cd:hover{
+  color: #ff7f7f;
+  transition: all 0.5s linear;
+}
+#bsk:hover{
+  color: #ff7f7f;
+  transition: all 0.5s linear;
+}
+#xx:hover{
+  color: #ff7f7f;
+  transition: all 0.5s linear;
+}
+#li:hover{
+  color: #ff7f7f;
+  transition: all 0.5s linear;
 }
