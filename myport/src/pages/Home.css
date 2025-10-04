@@ -1,0 +1,111 @@
+/* Home.css */
+
+/* Container for the section */
+.home-section {
+  position: relative;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 3D canvas fills the background */
+.home-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Foreground content wrapper */
+.home-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 1rem;
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Profile image style */
+.home-profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #f472b6;
+  margin: 0 auto 24px;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(244, 114, 182, 0.5);
+}
+
+/* Name styling */
+.home-name {
+  font-size: 2.5rem;
+  color: #f472b6;
+  margin: 0;
+}
+
+/* Tagline styling */
+.home-tagline {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  color: #ccc;
+}
+
+/* Highlight span */
+.highlight {
+  color: #f472b6;
+  font-weight: 600;
+}
+
+/* Journey / story block */
+.home-journey {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #aaa;
+  line-height: 1.6;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: left;
+}
+
+/* Social icons container */
+.home-socials {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+/* Individual icon style */
+.icon {
+  transition: color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #f472b6;
+  transform: scale(1.2);
+}
+
+/* React icon rotating slowly */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.react-icon {
+  color: #f472b6;
+  animation: spin-slow 10s linear infinite;
+}
