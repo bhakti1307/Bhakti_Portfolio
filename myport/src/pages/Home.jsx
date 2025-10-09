@@ -76,7 +76,7 @@ export default function Home() {
           </p>
           <p>
             <b>2024:</b> Building{" "}
-            <span className="highlight">Gallery 15 Seven</span> & animated
+            <span className="highlight"></span> & animated
             portfolios ✨
           </p>
         </motion.div>
